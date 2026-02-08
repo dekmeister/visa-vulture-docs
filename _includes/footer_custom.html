@@ -1,0 +1,7 @@
+<div class="d-flex flex-justify-between mt-2">
+  <p class="text-small mb-0">
+    {% if page.date_modified %}
+      Page last modified: <span class="d-inline-block">{{ page.date_modified | replace: "_", " " | date: site.last_edit_time_format }}</span>.
+    {% endif %}
+  </p>
+</div>

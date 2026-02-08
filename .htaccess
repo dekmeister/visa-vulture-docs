@@ -1,0 +1,2 @@
+# Use implicit filename pattern match for references without .html to work properly
+Options +MultiViews
